@@ -1,3 +1,10 @@
+
+# Use SDCLANG Compiler
+ifeq ($(SDCLANG),true)
+print_build_config_vars += \
+  TARGET_USE_SDCLANG
+endif
+
 # ---------------------------------------------------------------
 # the setpath shell function in envsetup.sh uses this to figure out
 # what to add to the path given the config we have chosen.
