@@ -137,12 +137,13 @@ function check_product()
         echo "Couldn't locate the top of the tree.  Try setting TOP." >&2
         return
     fi
-    if (echo -n $1 | grep -q -e "^lineage_") ; then
-        LINEAGE_BUILD=$(echo -n $1 | sed -e 's/^lineage_//g')
+    if (echo -n $1 | grep -q -e "^xtended_") ; then
+        XTENDED_BUILD=$(echo -n $1 | sed -e 's/^xtended_//g')
+        export BUILD_NUMBER=$( (date +%s%N ; echo $XTENDED_BUILD; hostname) | openssl sha1 | sed -e 's/.*=//g; s/ //g' | cut -c1-10 )
     else
-        LINEAGE_BUILD=
+        XTENDED_BUILD=
     fi
-    export LINEAGE_BUILD
+    export XTENDED_BUILD
 
         TARGET_PRODUCT=$1 \
         TARGET_BUILD_VARIANT= \
@@ -631,18 +632,19 @@ function lunch()
     fi
 
     check_product $product
+
     if [ $? -ne 0 ]
     then
-        # if we can't find a product, try to grab it off the LineageOS GitHub
+        # if we can't find a product, try to grab it off the Xtended-Devices GitHub
         T=$(gettop)
         cd $T > /dev/null
-        vendor/lineage/build/tools/roomservice.py $product
+        vendor/xtended/build/tools/roomservice.py $product
         cd - > /dev/null
         check_product $product
     else
         T=$(gettop)
         cd $T > /dev/null
-        vendor/lineage/build/tools/roomservice.py $product true
+        vendor/xtended/build/tools/roomservice.py $product true
         cd - > /dev/null
     fi
 
