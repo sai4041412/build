@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += \
     ExternalStorageProvider \
     Eleven \
     FusedLocation \
+    GBoardDarkTheme \
+    GBoardBlackTheme \
+    GBoardXtendedTheme \
     InputDevices \
     KeyChain \
     Keyguard \
