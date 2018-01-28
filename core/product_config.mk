@@ -168,9 +168,9 @@ include $(BUILD_SYSTEM)/node_fns.mk
 include $(BUILD_SYSTEM)/product.mk
 include $(BUILD_SYSTEM)/device.mk
 
-# A GZOSP build needs only the GZOSP product makefiles.
-ifneq ($(GZOSP_BUILD),)
-  all_product_configs := $(shell find device -path "*/$(GZOSP_BUILD)/gzosp.mk")
+# A XTENDED build needs only the XTENDED product makefiles.
+ifneq ($(XTENDED_BUILD),)
+  all_product_configs := $(shell find device -path "*/$(XTENDED_BUILD)/xtended.mk")
 else
   ifneq ($(strip $(TARGET_BUILD_APPS)),)
   # An unbundled app build needs only the core product makefiles.
@@ -181,9 +181,9 @@ else
   # files in the tree.
   all_product_configs := $(get-all-product-makefiles)
   endif # TARGET_BUILD_APPS
-endif # GZOSP_BUILD
+endif # XTENDED_BUILD
 
-ifeq ($(GZOSP_BUILD),)
+ifeq ($(XTENDED_BUILD),)
 all_named_products :=
 
 # Find the product config makefile for the current product.
