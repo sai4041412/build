@@ -2788,17 +2788,16 @@ bacon: otapackage
 xtended: otapackage
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(XTENDED_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(XTENDED_TARGET_PACKAGE) > $(XTENDED_TARGET_PACKAGE).md5sum
-	@echo -e ${CL_RED}""${CL_RED}
-	@echo -e ${CL_RED}"    ▄██████▄   ▄███████▄   ▄██████▄     ▄████████    ▄███████▄ "${CL_RED}
-	@echo -e ${CL_RED}"   ███    ███ ██▀     ▄██ ███    ███   ███    ███   ███    ███ "${CL_RED}
-	@echo -e ${CL_RED}"   ███    █▀        ▄███▀ ███    ███   ███    █▀    ███    ███ "${CL_RED}
-	@echo -e ${CL_RED}"  ▄███         ▀█▀▄███▀▄▄ ███    ███   ███          ███    ███ "${CL_RED}
-	@echo -e ${CL_RED}" ▀▀███ ████▄    ▄███▀   ▀ ███    ███ ▀███████████ ▀█████████▀ "${CL_RED}
-	@echo -e ${CL_RED}"   ███    ███ ▄███▀       ███    ███          ███   ███ "${CL_RED}
-	@echo -e ${CL_RED}"   ███    ███ ███▄     ▄█ ███    ███    ▄█    ███   ███ "${CL_RED}
-	@echo -e ${CL_RED}"   ████████▀   ▀████████▀  ▀██████▀   ▄████████▀   ▄████▀ "${CL_RED}
-	@echo -e ${CL_RED}"                           A Ground Zero Roms "${CL_RED}
-	@echo -e ${CL_RED}"                                Project      "${CL_RED}
+	@echo -e ${CL_RED}""${CL_RED}  
+	@echo -e ${CL_RED}"    ##     ##   ########   ###      ##   #######      "${CL_RED}
+	@echo -e ${CL_RED}"     ##   ##       ##      ####     ##   ##     ##    "${CL_RED}
+	@echo -e ${CL_RED}"      ## ##        ##      ## ##    ##   ##      ##   "${CL_RED}
+	@echo -e ${CL_RED}"       ###         ##      ##  ##   ##   ##      ##   "${CL_RED}
+	@echo -e ${CL_RED}"      ## ##        ##      ##   ##  ##   ##      ##   "${CL_RED}
+	@echo -e ${CL_RED}"     ##   ##       ##      ##    ## ##   ##     ##    "${CL_RED}
+	@echo -e ${CL_RED}"    ##     ##      ##      ##     ####   #######      "${CL_RED}
+	@echo -e ${CL_RED}"               Get Ready To Be Xtended                "${CL_RED}
+	@echo -e ${CL_RED}"          Project Xtended ROM by Team-Xtended         "${CL_RED}
 	@echo -e "Package complete: $(XTENDED_TARGET_PACKAGE)"
 
 endif    # build_ota_package
