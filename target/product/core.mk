@@ -33,6 +33,8 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DocumentsUI \
     DownloadProviderUi \
+    DuiBlackThemeOverlay \
+    DuiDarkThemeOverlay \
     ExactCalculator \
     ExternalStorageProvider \
     FusedLocation \
@@ -48,6 +50,8 @@ PRODUCT_PACKAGES += \
     ProxyHandler \
     QuickSearchBox \
     Settings \
+    SettingsBlackThemeOverlay \
+    SettingsDarkThemeOverlay \
     SharedStorageBackup \
     StorageManager \
     Telecom \
