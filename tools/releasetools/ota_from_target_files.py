@@ -498,24 +498,36 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  script.Print("***************************************************");
-  script.Print("***************************************************");
-  script.Print("***************************************************");
-  script.Print(" ##     ##   ########   ###      ##   #######      ");
-  script.Print("  ##   ##       ##      ####     ##   ##     ##    ");
-  script.Print("   ## ##        ##      ## ##    ##   ##      ##   ");
-  script.Print("    ###         ##      ##  ##   ##   ##      ##   ");
-  script.Print("   ## ##        ##      ##   ##  ##   ##      ##   ");
-  script.Print("  ##   ##       ##      ##    ## ##   ##     ##    ");
-  script.Print(" ##     ##      ##      ##     ####   #######      ");
-  script.Print("***************************************************");
-  script.Print("***************************************************");
-  script.Print("***************************************************");
-  script.Print("           Get Ready To Be Xtended                 ");
-  script.Print("***************************************************");
-  script.Print("      Project Xtended ROM by Team-Xtended          ");
-  script.Print("          Xtended Kernel by Mady51                 ");
-  script.Print("***************************************************");
+  script.Print("**************************************************");
+  script.Print("             Get Ready To Be Xtended              ");
+  script.Print("**************************************************");
+  script.Print("                                                  ");
+  script.Print("                  *** ### ### ***                 ");
+  script.Print("              *##                 ##*             ");
+  script.Print("          *##                         ##*         ");
+  script.Print("       *##                               ##*      ");
+  script.Print("     *##                                   ##*    ");
+  script.Print("   *##                                      ##*   ");
+  script.Print("  *##                                        ##*  ");
+  script.Print(" *##  __   ___                 _          _   ##* ");
+  script.Print("*##   \ \ / / |               | |        | |   ##*");
+  script.Print("*##    \ \ /| |_ ___ _ __   __| | ___  __| |   ##*");
+  script.Print("*##     \ / | __/ _ \ |_ \ / _` |/ _ \/ _` |   ##*");
+  script.Print("*##    / \ \| ||  __/ | | | (_| |  __/ (_| |   ##*");
+  script.Print("*##   /_/ \_\\__\___|_| |_|\__/_|\___|\__/_|   ##*");
+  script.Print(" *##                                          ##* ");
+  script.Print("  *##                                        ##*  ");
+  script.Print("   *##                                      ##*   ");
+  script.Print("     *##                                   ##*    ");
+  script.Print("       *#                                ##*      ");
+  script.Print("          *##                         ##*         ");
+  script.Print("              *##                 ##*             ");
+  script.Print("                  *** ### ### ***                 ");
+  script.Print("                                                  ");
+  script.Print("**************************************************");
+  script.Print("        Project MSM-X ROM by Team-Xtended         ");
+  script.Print("             Xtended Kernel by Mady51             ");
+  script.Print("**************************************************");
 
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
