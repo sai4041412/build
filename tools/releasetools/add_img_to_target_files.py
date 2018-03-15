@@ -669,6 +669,10 @@ def AddImagesToTargetFiles(filename):
     banner("vbmeta")
     AddDisabledVBMeta(output_zip)
 
+  if OPTIONS.info_dict.get("avb_disabled_vbmeta") == "true":
+    banner("vbmeta")
+    AddDisabledVBMeta(output_zip)
+
   # For devices using A/B update, copy over images from RADIO/ and/or
   # VENDOR_IMAGES/ to IMAGES/ and make sure we have all the needed
   # images ready under IMAGES/. All images should have '.img' as extension.
