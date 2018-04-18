@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
     CaptivePortalLogin \
     CertInstaller \
     Contacts \
-    DeskClock \
+    OmniClockOSS \
     DocumentsUI \
     DownloadProviderUi \
     DuiBlackThemeOverlay \
