@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     DuiDarkThemeOverlay \
     ExactCalculator \
     ExternalStorageProvider \
+    Eleven \
     FusedLocation \
     InputDevices \
     KeyChain \
@@ -44,6 +45,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     ManagedProvisioning \
     MtpDocumentsProvider \
+    MusicFX \
     PacProcessor \
     libpac \
     PrintSpooler \
