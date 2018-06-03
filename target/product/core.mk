@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     DownloadProviderUi \
     DuiBlackThemeOverlay \
     DuiDarkThemeOverlay \
+    DuiXtendedThemeOverlay \
     ExactCalculator \
     ExternalStorageProvider \
     Eleven \
@@ -55,6 +56,7 @@ PRODUCT_PACKAGES += \
     Settings \
     SettingsBlackThemeOverlay \
     SettingsDarkThemeOverlay \
+    SettingsXtendedThemeOverlay \
     SharedStorageBackup \
     StorageManager \
     SubstratumService \
