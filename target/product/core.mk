@@ -46,7 +46,6 @@ PRODUCT_PACKAGES += \
     InputDevices \
     KeyChain \
     Keyguard \
-    Launcher3 \
     ManagedProvisioning \
     MtpDocumentsProvider \
     MusicFX \
