@@ -498,36 +498,48 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  script.Print("**************************************************");
-  script.Print("             Get Ready To Be Xtended              ");
-  script.Print("**************************************************");
-  script.Print("                                                  ");
-  script.Print("                  *** ### ### ***                 ");
-  script.Print("              *##                 ##*             ");
-  script.Print("          *##                         ##*         ");
-  script.Print("       *##                               ##*      ");
-  script.Print("     *##                                   ##*    ");
-  script.Print("   *##                                      ##*   ");
-  script.Print("  *##                                        ##*  ");
-  script.Print(" *##  __   ___                 _          _   ##* ");
-  script.Print("*##   \ \ / / |               | |        | |   ##*");
-  script.Print("*##    \ \ /| |_ ___ _ __   __| | ___  __| |   ##*");
-  script.Print("*##     \ / | __/ _ \ |_ \ / _` |/ _ \/ _` |   ##*");
-  script.Print("*##    / \ \| ||  __/ | | | (_| |  __/ (_| |   ##*");
-  script.Print("*##   /_/ \_\\__\___|_| |_|\__/_|\___|\__/_|   ##*");
-  script.Print(" *##                                          ##* ");
-  script.Print("  *##                                        ##*  ");
-  script.Print("   *##                                      ##*   ");
-  script.Print("     *##                                   ##*    ");
-  script.Print("       *#                                ##*      ");
-  script.Print("          *##                         ##*         ");
-  script.Print("              *##                 ##*             ");
-  script.Print("                  *** ### ### ***                 ");
-  script.Print("                                                  ");
-  script.Print("**************************************************");
-  script.Print("        Project MSM-X ROM by Team-Xtended         ");
-  script.Print("             Xtended Kernel by Mady51             ");
-  script.Print("**************************************************");
+  script.Print("***********************************************");
+  script.Print("             Get Ready To Be Xtended           ");
+  script.Print("***********************************************");
+  script.Print("      _____           _           _            ");
+  script.Print("     |  __ \         (_)         | |           ");
+  script.Print("     | |__) | __ ___  _  ___  ___| |_          ");
+  script.Print("     |  ___/ '__/ _ \| |/ _ \/ __| __|         ");
+  script.Print("     | |   | | | (_) | |  __/ (__| |_          ");
+  script.Print("     |_|   |_|  \___/| |\___|\___|\__|         ");
+  script.Print("      __    ___     _/ |       _               ");
+  script.Print("      \ \ / / |    |__/       | |        | |   ");
+  script.Print("       \ V /| |_ ___ _ __   __| | ___  __| |   ");
+  script.Print("        > < | __/ _ \ '_ \ / _` |/ _ \/ _` |   ");
+  script.Print("       / . \| ||  __/ | | | (_| |  __/ (_| |   ");
+  script.Print("      /_/ \_\\__\___|_| |_|\__,_|\___|\__,_|   ");
+  script.Print("                                               ");
+  script.Print("***********************************************");
+  script.Print("         MSM-Xtended ROM by Team-Xtended       ");
+  script.Print("***********************************************");
+
+  if GetBuildProp("ro.xtended.version", OPTIONS.info_dict) is not None:
+    buildid = GetBuildProp("ro.xtended.version", OPTIONS.info_dict)
+    androidver = GetBuildProp("ro.build.version.release", OPTIONS.info_dict)
+    buildtype = GetBuildProp("ro.build.type", OPTIONS.info_dict)
+    buildidn = GetBuildProp("ro.build.id", OPTIONS.info_dict)
+    buildday = GetBuildProp("ro.build.date", OPTIONS.info_dict)
+    securep = GetBuildProp("ro.build.version.security_patch", OPTIONS.info_dict)
+    device = GetBuildProp("ro.product.name", OPTIONS.info_dict)
+  script.Print("***********************************************");
+  script.Print(" ROM version    : %s"%(buildid));
+  script.Print("");
+  script.Print(" Android version  : %s"%(androidver));
+  script.Print("");
+  script.Print(" Security patch : %s"%(securep));
+  script.Print("");
+  script.Print(" Build date     : %s"%(buildday));
+  script.Print("");
+  script.Print(" Build type     : %s"%(buildtype));
+  script.Print("");
+  script.Print("***********************************************");
+  script.Print(" Device         : %s"%(device));
+  script.Print("***********************************************");
 
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1

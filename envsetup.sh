@@ -506,22 +506,26 @@ function print_lunch_menu()
     echo ""
     tput setaf 1;
     tput bold;
-    echo "  ▄████ ▒███████▒ ▒█████    ██████  ██▓███  "
-    echo " ██▒ ▀█▒▒ ▒ ▒ ▄▀░▒██▒  ██▒▒██    ▒ ▓██░  ██▒"
-    echo "▒██░▄▄▄░░ ▒ ▄▀▒░ ▒██░  ██▒░ ▓██▄   ▓██░ ██▓▒"
-    echo "░▓█  ██▓  ▄▀▒   ░▒██   ██░  ▒   ██▒▒██▄█▓▒ ▒"
-    echo "░▒▓███▀▒▒███████▒░ ████▓▒░▒██████▒▒▒██▒ ░  ░"
-    echo " ░▒   ▒ ░▒▒ ▓░▒░▒░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░"
-    echo "  ░   ░ ░░▒ ▒ ░ ▒  ░ ▒ ▒░ ░ ░▒  ░ ░░▒ ░     "
-    echo "░ ░   ░ ░ ░ ░ ░ ░░ ░ ░ ▒  ░  ░  ░  ░░       "
-    echo "      ░   ░ ░        ░ ░        ░           "
-    echo "        ░                                   "
+    echo "***********************************************"
+    echo "                                               "
+    echo "██╗  ██╗██████╗█████╗█╗   █╗████╗ █████╗████╗  "
+    echo "╚██╗██╔╝╚═██╔═╝█╔═══╝██╗  █║█╔══█╗█╔═══╝█╔══█╗ "
+    echo " ╚███╔╝   ██║  ████╗ █╔█╗ █║█║  █║████╗ █║  █║ "
+    echo " ██╔██╗   ██║  █╔══╝ █║╚█╗█║█║  █║█╔══╝ █║  █║ "
+    echo "██╔╝ ██╗  ██║  █████╗█║ ╚██║████╔╝█████╗████╔╝ "
+    echo "╚═╝  ╚═╝  ╚═╝  ╚════╝╚╝  ╚═╝╚═══╝ ╚════╝╚═══╝  "
+    echo "                                               "
+    echo "***********************************************"
+    echo "             Get Ready To Be Xtended           "
+    echo "***********************************************"
+    echo "         MSM Xtended ROM by Team-Xtended       "
+    echo "***********************************************"
     tput sgr0;
     echo ""
-    echo "                      Welcome to the device menu                      "
+    echo "           Welcome to the device menu          "
     echo ""
     tput bold;
-    echo "     Below are all the devices currently available to be compiled     "
+    echo "        Devices available for compiling        "
     tput sgr0;
     echo ""
 
