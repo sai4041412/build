@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
     CaptivePortalLogin \
     CertInstaller \
     Contacts \
+    CustomDoze \
     OmniClockOSS \
     DocumentsUI \
     DownloadProviderUi \
