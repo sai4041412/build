@@ -61,6 +61,7 @@ PRODUCT_PACKAGES += \
     SettingsDarkThemeOverlay \
     SettingsXtendedThemeOverlay \
     SharedStorageBackup \
+    Snap \
     StorageManager \
     SubstratumService \
     Telecom \
