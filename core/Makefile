@@ -332,7 +332,7 @@ endif
 			$(PRODUCT_BUILD_PROP_OVERRIDES) \
 	        bash $(BUILDINFO_SH) >> $@
 
-ifeq ($(TARGET_COPY_OUT_VENDOR),vendor)
+ifeq ($(TARGET_COPY_OUT_VENDOR),system)
 	$(hide) TARGET_DEVICE="$(TARGET_DEVICE)" \
 			PRODUCT_NAME="$(TARGET_PRODUCT)" \
 			PRODUCT_BRAND="$(PRODUCT_BRAND)" \
