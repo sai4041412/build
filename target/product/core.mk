@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
     ManagedProvisioning \
     MtpDocumentsProvider \
     MusicFX \
+    OmniBrain \
     PacProcessor \
     libpac \
     PrintSpooler \
