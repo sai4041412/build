@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     SharedStorageBackup \
     SimAppDialog \
+    SnapdragonCamera2 \
     StorageManager \
     Telecom \
     TeleService \
