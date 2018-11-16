@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     SharedStorageBackup \
     SimAppDialog \
-    SnapdragonCamera2 \
+    Snap \
     StorageManager \
     SubstratumHelperService \
     substratum-sysconfig.xml \
