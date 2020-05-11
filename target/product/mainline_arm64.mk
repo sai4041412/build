@@ -50,6 +50,7 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_WHITELIST += \
   system/priv-app/CarrierConfig/oat/arm64/CarrierConfig.vdex \
   system/priv-app/Contacts/Contacts.apk \
   system/priv-app/Dialer/Dialer.apk \
+  system/priv-app/Launcher3QuickStep/Launcher3QuickStep.apk \
   system/priv-app/OneTimeInitializer/OneTimeInitializer.apk \
   system/priv-app/Provision/Provision.apk \
   system/priv-app/SettingsIntelligence/SettingsIntelligence.apk \

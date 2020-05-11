@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     Calendar \
     Contacts \
     DeskClock \
+    Launcher3QuickStep \
     OneTimeInitializer \
     Provision \
     Settings \
